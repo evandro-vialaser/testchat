@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script
+      src="https://unpkg.com/blip-chat-widget"
+      type="text/javascript"
+    ></script>
+    <script>
+      (function() {
+        window.onload = function() {
+          new BlipChat()
+            .withAppKey(
+              "YXRlbmRpbWVudG92aWFsYXNlcjM6MzkxM2JlODgtOGNjMS00NDcxLWEyMGMtYTAyNDdjYmRjNjQy"
+            )
+            .withButton({ color: "#2CC3D5", icon: "" })
+            .build();
+        };
+      })();
+    </script>
+  </head>
+  <body>
+    <h1>Teste de integração Blip chat</h1>
+  </body>
+</html>
